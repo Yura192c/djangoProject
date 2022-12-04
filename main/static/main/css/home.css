@@ -5,7 +5,7 @@ body {
 aside {
     float: left;
     background: #181818;
-    width: 20%;
+    width: 18%;
     padding: 2.5%;
     height: 100vh;
     color: #FFFFFF;
@@ -44,7 +44,7 @@ aside ul{
     line-height: 20px;
 }
 aside ul li{
-    color: #FFFFFF;;
+    color: #FFFFFF;
     display: block;
     margin-top: 20px;
     transition: transform .4s;
@@ -55,7 +55,6 @@ aside ul li:hover, aside ul a:hover{
     text-decoration: none;
     transform: scale(1.05);
 }
-
 
 
 

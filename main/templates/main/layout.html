@@ -19,9 +19,13 @@
             <a href="{% url 'registration' %}"><li>Registration</li></a>
             <a href="{% url 'about' %}"><li>About</li></a>
             <a href="{% url 'contacts' %}"><li>Contacts</li></a>
-            <a href="{% url 'shop_home' %}"><li>Shop</li></a>
+            <a href="{% url 'product_list' %}"><li>Shop</li></a>
         </ul>
     </aside>
+    <div id="content">
+    {% block content %}
+    {% endblock %}
+    </div>
     {% block mainblock %}
     {% endblock %}
 
