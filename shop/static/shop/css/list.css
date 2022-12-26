@@ -6,6 +6,25 @@ div {
 .Information{
 
 }
+
 .product-list{
+    display: flex;
     color: white;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+
+.item > a:first-child {
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: #4d4d4d;
+    background-size: contain;
 }
