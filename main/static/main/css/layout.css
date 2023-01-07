@@ -1,9 +1,13 @@
 body {
     background: #222;
     font-family: Arial;
+    color:white;
 }
+
 aside {
     float: left;
+    position: relative;
+    z-index: 100;
     background: #181818;
     width: 18%;
     padding: 2.5%;
@@ -11,7 +15,8 @@ aside {
     color: #FFFFFF;
     border-right: 5px solid #4d4d4d;
 }
-aside img{
+
+aside img {
     width: 200px;
     float: left;
     position: relative;
@@ -19,42 +24,47 @@ aside img{
     left: -20px;
 }
 
-aside .logo{
-  text-transform: uppercase;
-  color: #FFFFFF;
-  opacity: 0.4;
-  font-size: 15px;
-  margin-left: 40px;
-  font-weight: bold;
-  position: relative;
-  top: -40px;
-  left: -5px;
-  display: inline-block;
-  transition: all 0.5s ease-in-out;
+aside .logo {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.4;
+    font-size: 15px;
+    margin-left: 40px;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+    left: -5px;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
 
 }
 
-aside h3{
+aside h3 {
     margin-top: 20px;
     font-size: 28px;
 }
-aside ul{
+
+aside ul {
     margin-top: 10px;
     list-style: none;
     line-height: 20px;
 }
-aside ul li{
+
+aside ul li {
     color: #FFFFFF;
     display: block;
     margin-top: 20px;
     transition: transform .4s;
     text-align: left;
 }
-aside ul li:hover, aside ul a:hover{
-    color:#1161ed;
+
+aside ul li:hover, aside ul a:hover {
+    color: #1161ed;
     text-decoration: none;
     transform: scale(1.05);
 }
-
 
 

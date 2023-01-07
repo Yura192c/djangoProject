@@ -3,9 +3,6 @@ div {
     position: relative;
     right: -15px;
 }
-.Information{
-
-}
 
 .product-list{
     display: flex;
@@ -27,4 +24,16 @@ div {
     overflow: hidden;
     background: #4d4d4d;
     background-size: contain;
+}
+
+.product-detail img{
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: #4d4d4d;
+    /*background-size: contain;*/
+
 }
